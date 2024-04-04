@@ -2,6 +2,11 @@
 
 A hardware gadget measuring air CO2 content and glowing in traffic light colors to indicate air quality.
 
+## TODO
+
+- Schematic
+  - DNP footprint for tVOC / VOC sensor to measure solvent pollution, cooking odor, 3dp resin smell
+
 ## Most important consideration: addressable leds or 2 central drivers (red, green)?
 
 Current sway is toward addressable because the routing can be simpler and they are small too. But if only red and green are used, the number of connections between leds are the same for central drivers...
